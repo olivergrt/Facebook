@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="css/inscription.css">
+	<title>Inscription</title>
+</head>
+<body>
+<center>
+	<div class="inscription">
+		<div class="logo"><img src="img/logo.jpg"></div>
+			<div class="formulaire">
+				<h1 class="connexion">Inscription</h1>
+				<form action="inscriptionTraitement.php" method="POST">
+					<div class="elements">
+						
+						<input class="log" placeholder="Login" type="text" name="login"  required><br>
+					</div>
+					<div class="elements">
+						
+						<input class="log" placeholder="Mot de passe" type="password" name="password" required><br>
+					</div>
+					<div class="elements">			
+						
+						<input class="log" placeholder="Nom" type="text" name="nom"  required><br>
+					</div>
+					<div class="elements">
+						
+						<input class="log" placeholder="Prénom" type="text" name="prenom" required><br>
+					</div>
+					<div class="elements">
+						
+						<input class="log" placeholder="Date de naissance" type="date" name="ddn"  required><br>
+					</div>
+						
+			 			<input type="radio" id="H" name="sexe" value="H"  
+			        	 checked>
+		 				<label>Homme</label>
+
+		 				<input type="radio" id="F" name="sexe" value="F">
+		  				<label>Femme</label><br>
+		  			<div>
+		  				<input class="connexion" type="submit" name="submit" value="Valider">
+			  		</div>
+			  		<center><a class="sinscrire" href="login.php">Se connecter</a></center>
+				</form>
+		  	</div>
+		</div>
+	</div>
+</center>
+</body>
+</html>

@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'facebook';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Segoe UI Bold'), local('SegoeUI-bold'), local('segoeuib');
+}
+
+*{
+	font-family: facebook;
+	text-decoration: none;
+}
+
+body{
+	background-color: #3b5998;
+}
+label{
+	color: white;
+}
+
+/*Fomulaire complet*/
+.inscription{
+	margin: 0 auto;
+	border: 0px solid black; 
+	width: 400px;
+}
+/*uniquement les input*/
+.formulaire{
+	border: 0px solid black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+.elements{
+	width: 400px;
+	border: 0px solid green;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.logo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+input.log{
+	padding: 13px 36px;
+	border-radius: 3px;
+	border: 1px solid grey;
+}
+input.connexion{
+	padding: 10px 20px;
+	cursor: pointer;
+	margin-top: 12px;
+	margin-bottom: 32px;
+	border-radius: 3px;
+	border: 1px solid grey;
+}
+a.sinscrire{
+	color: white;
+}
+h1.connexion{
+	color: white;
+	font-size: 36px;
+	text-align: center;
+	padding: 10px;
+}
+
+p.erreur{
+	color: red;
+	padding: 8px;
+	text-align: center;
+	background-color: #ffb4b4;
+	border-radius: 3px;
+	max-width: 330px;
+}
